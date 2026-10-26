@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Briano Alvarez Milagros Monserrat">
+    <meta name="description" content="Portafolio personal donde comparto mis habilidades, proyectos y conocimientos en diseño y tecnología.">
+    <meta name="keywords" content="portafolio, diseño, proyectos, HTML, CSS, Bootstrap">
+ 
+    <title>Mi portafolio</title>
+    <link rel="icon" href="iconos/icono.jpg">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+ 
+<body>
+   <header class="navbar navbar-expand-lg bg-success navbar-dark fixed-top">
+    <nav class="container">
+        <a class="navbar-brand" href="index.html#inicio"><img src="Imagenes/Logo.jpg" alt="Logo" class="logotipo"> Mi portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="menu">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                    <a class="nav-link" href="#sobremi">Sobre mí</a>
+                    <a class="nav-link" href="#habilidades">Habilidades</a>
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="inicio" class="inicio text-center py-5">
+        <div class="container py-5">
+            <h1 class="display-4">Mi portafolio</h1>
+            <p class="fs-4">Diseño, creatividad y desarrollo digital</p>
+            <a href="#proyectos" class="btn btn-success">Ver mis trabajos</a>
+        </div>
+    </section>
+ 
+    <main>
+ 
+        <section id="sobremi" class="container py-5">
+            <div class="row align-items-center">
+ 
+                <article class="col-lg-6">
+                    <h2 class="text-success">Sobre mí</h2>
+ 
+                    <h3>¡Holiii!</h3>
+ 
+                    <p>
+                       Soy una persona creativa y comprometida con el aprendizaje, 
+                       interesada en combinar diseño, tecnología y funcionalidad mediante proyectos digitales, 
+                       diseño web, animación y edición audiovisual.
+                    </p>
+ 
+                    <p>
+                        Me interesa la unión entre la tecnología, el diseño y la innovación digital,
+                        porque creo que las ideas pueden convertirse en experiencias que comuniquen,
+                        inspiren y resuelvan problemas.
+                    </p>
+ 
+                    <a class="btn btn-outline-success"data-bs-toggle="collapse"href="#informacion"role="button"aria-expanded="false"aria-controls="informacion">
+                        Leer más
+                    </a>
+ 
+                    <div class="collapse mt-3" id="informacion">
+                        <div class="card card-body">
+                            <p>
+                                Me considero una persona realista con
+                                una actitud positiva. Me gusta trabajar
+                                en equipo, escuchar diferentes ideas
+                                y buscar soluciones creativas.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+ 
+                <figure class="col-lg-6 text-center">
+                    <img src="Imagenes/Foto personal.jpg" alt="Mi fotografía" class="img-fluid foto-perfil">
+                </figure>
+            </div>
+        </section>
+ 
+        <section id="habilidades" class="fondo-verde py-5">
+            <div class="container">
+                <h2 class="text-success text-center mb-4">
+                    Mis habilidades
+                </h2>
+ 
+            <div class="row">
+                <article class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <img src="Imagenes/Gato editor.jpg" class="card-img-top imagen-habilidad" alt="Diseño digital">
+                        <div class="card-body text-center">
+                            <h3 class="card-title h4 text-success">
+                                <i class="bi bi-palette"></i>
+                                Diseño digital
+                            </h3>
+                            <p class="card-text"> Creación de diseños y propuestas visuales utilizando herramientas digitales.</p>
+                        </div>
+                    </div>
+                </article>
+
+                    <article class="col-md-6 col-lg-3 mb-4">
+                        <div class="card h-100">
+                            <img src="Imagenes/Gato programador.jpg" class="card-img-top imagen-habilidad" alt="Desarrollo web">
+                            <div class="card-body text-center">
+                                <h3 class="card-title h4 text-success">
+                                    <i class="bi bi-code-slash"></i>
+                                    Desarrollo web
+                                </h3>
+                                <p class="card-text"> Conocimientos de HTML, CSS y Bootstrap para crear páginas web organizadas y adaptables.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-md-6 col-lg-3 mb-4">
+                        <div class="card h-100">
+                            <img src="Imagenes/Gato blender.jpg" class="card-img-top imagen-habilidad" alt="Modelado 3D">
+                            <div class="card-body text-center">
+                                <h3 class="card-title h4 text-success">
+                                    <i class="bi bi-box"></i>
+                                    Modelado 3D
+                                </h3>
+                                <p class="card-text"> Creación de modelos y objetos tridimensionales utilizando herramientas como Blender.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-md-6 col-lg-3 mb-4">
+                        <div class="card h-100">
+ 
+                            <img src="Imagenes/Gato trabajador.jpg" class="card-img-top imagen-habilidad" alt="Trabajo en equipo">
+                            <div class="card-body text-center">
+                                <h3 class="card-title h4 text-success">
+                                 <i class="bi bi-people"></i>
+                                    Trabajo en equipo
+                                </h3>
+                                <p class="card-text"> Colaboración, comunicación y organización para desarrollar proyectos con otras personas.
+                                </p>
+ 
+                            </div>
+                        </div>
+                    </article>
+ 
+                </div>
+            </div>
+        </section>
+ 
+
+ <section id="proyectos" class="container py-5">
+        <h2 class="text-success text-center mb-4">Mis proyectos</h2>
+        <div id="carruselProyectos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img src="Imagenes/blender 1.jpg" class="d-block w-100 imagen-proyecto" alt="Proyecto de Blender"><div class="pie-proyecto text-center p-3">Modelado en Blender</div></div>
+                <div class="carousel-item"><img src="Imagenes/Anuncio1.jpg" class="d-block w-100 imagen-proyecto" alt="Diseño de anuncio"><div class="pie-proyecto text-center p-3">Diseño de anuncio</div></div>
+                <div class="carousel-item"><img src="Imagenes/Creatividad.jpg" class="d-block w-100 imagen-proyecto" alt="Proyecto creativo"><div class="pie-proyecto text-center p-3">Creatividad</div></div>
+                <div class="carousel-item"><img src="Imagenes/Anuncio 2.jpg" class="d-block w-100 imagen-proyecto" alt="Segundo anuncio"><div class="pie-proyecto text-center p-3">Otro diseño</div></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselProyectos" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselProyectos" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span></button>
+        </div>
+    </section>
+
+ <!-- Video y audio -->
+    <section id="multimedia" class="fondo-verde py-5">
+        <div class="container"><h2 class="text-success text-center mb-4">Multimedia</h2><div class="row">
+            <article class="col-lg-7 mb-4"><h3 class="h5">Video realizado por mi equipo</h3><video controls class="w-100"><source src="medios/Video/Video de muestra.mp4" type="video/mp4">Tu navegador no puede reproducir este video.</video></article>
+            <article class="col-lg-5 mb-4"><h3 class="h5">Utilizo la musica para calmar mi mente</h3><audio controls class="w-100"><source src="medios/Audio/Inspiracion.mpeg" type="audio/mpeg">Tu navegador no puede reproducir este audio.</audio></article>
+        </div></div>
+    </section>
+
+    <!-- Contacto -->
+    <footer class="bg-success text-white text-center py-4"><div class="container"><h2 class="h4">¿Quieres contactarme?</h2><a href="contacto.html" class="btn btn-light">Ir a contacto</a><p class="mb-0 mt-3">Copyright 2026 - Milagros Monserrat Briano Alvcarez</p></div></footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
